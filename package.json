@@ -1,0 +1,28 @@
+{
+  "name": "takeaway-price-tracker",
+  "version": "1.0.0",
+  "description": "A simple TakeAway/Lieferando crawler for logging restaurants price changes",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/9KJohann/TakeAway-price-tracker.git"
+  },
+  "keywords": [
+    "Lieferando",
+    "TakeAway"
+  ],
+  "author": "Johann Dietrich",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/9KJohann/TakeAway-price-tracker/issues"
+  },
+  "homepage": "https://github.com/9KJohann/TakeAway-price-tracker#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "dotenv": "^8.2.0",
+    "json5": "^2.1.1"
+  }
+}
